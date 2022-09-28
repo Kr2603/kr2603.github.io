@@ -1,0 +1,38 @@
+html,
+body,
+.view {
+    height: 100%;
+}
+.carousel {
+    height: 50%;
+}
+.carousel .carousel-inner {
+    height: 100%;
+}
+
+.carousel .carousel-inner .carousel-item,
+.carousel .carousel-inner .active {
+    height: 100%;
+}
+@media (max-width: 776px) {
+    .carousel {
+        height: 100%;
+    }
+}
+.page-footer {
+    background-color: #929FBA;
+}
+.slide-img {
+    background-image: url('../img/myimage/slide1.1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+   
+}
+.form-w {
+    width: 70px;
+}
+.nav-bg {
+    background-color: #4b82e8;
+    color: #fff;
+}

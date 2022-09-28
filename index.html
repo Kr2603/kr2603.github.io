@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Sportmarket</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/favicon-s.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Мои стили -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/second.css">
+</head>
+<body>
+
+ <!-- Панель навигации -->
+ <nav class="navbar fixed-top navbar-expand-lg navbar-light white-text nav-bg scrolling-navbar">
+  <div class="container ">
+    
+    <a href="#" class="navbar-brend waves-effect text-decoration-none mr-3">
+     <img src="img/myimage/logo2.png" alt="logo" width="100">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mr-auto white-text">
+      <li class="nav-item active">
+       <a href="index.html" class="nav-link waves-effect white-text">Главная</a>
+      </li>
+      <li class="nav-item">
+       <a href="login.html" class="nav-link waves-effect white-text">Авторизация</a>
+      </li>
+      <li class="nav-item">
+       <a href="contact.html" class="nav-link waves-effect white-text">Контакты</a>
+      </li>
+      <li class="nav-item">
+       <a href="register.html" class="nav-link waves-effect white-text">Регистрация</a>
+      </li>
+      <li class="nav-item">
+       <a href="profile.html" class="nav-link waves-effect white-text">Личный кабинет</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav nav-flex-icons white-text">
+      <li class="nav-item">
+        <a href="cart.html" class="nav-link waves-effect">
+          <span class="badge purple z-depth-1 ">10</span>
+          <li class="fa fa-shopping-cart mt-auto mb-auto"></li>
+          <span class="clearfix d-none d-sm-inline-block white-text">Корзина</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link waves-effect">
+        
+          <li class="fab fa-facebook mt-auto mb-auto"></li>
+          
+         
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link waves-effect">
+        
+          <li class="fab fa-twitter mt-auto mb-auto"></li>
+          
+         
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link waves-effect">
+        
+          <li class="fab fa-github mt-auto mb-auto"></li>
+          
+         
+        </a>
+      </li>
+     
+     
+    </ul>
+  </div>
+  </div>
+
+</nav>
+
+<!-- Слайдер -->
+<div id="carousel-ex" class="carousel slide pt-4 carousel-fade" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li class="active" data-target="#carousel-ex" data-slide-to="0"></li>
+    <li data-target="#carousel-ex" data-slide-to="1"></li>
+    <li data-target="#carousel-ex" data-slide-to="2"></li>
+  </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view slide-img">
+              <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
+                <div class="text-center white-text mx-5 wow fadeIn">
+                  <h1 class="mb-4">
+                    <strong>Мы делаем спорт комфортным</strong>
+                  </h1>
+                  <p>
+                    <strong>Тот, кто хочет добиться убедительных побед, обязан пытаться прыгнуть выше головы</strong>
+                  </p>
+                  <p class="d-none d-md-block mb-4">
+                    <strong>Тренируйся с теми, кто сильнее. Не сдавайся там, где сдаются другие. И победишь там, где победить нельзя</strong>
+                  </p>
+                  <a href="contact.html" class="btn btn-outline-white btn-lg">О нас  <i class="fa fa-graduation-cap ml-1"></i></a>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!-- Секция с товарами -->
+<main>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark mdb-color mt-4 mb-5 lighten-3 white-text">
+        <span class="navbar-brend mr-2"><strong> Категории:</strong></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nextNav" aria-controls="nextNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nextNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Все</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Верхняя одежда</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Нижняя одежда</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Обувь</a>
+            </li>
+          </ul>
+          <form  class="form-inlin">
+          
+          
+            <div class="md-form my-0">
+              <input type="search" class="form-control mr-sm-0 " placeholder="Найти..." aria-label="Search">
+            
+            
+          
+            </div>
+          </form>
+        </div>
+    </nav>
+    <!-- сами товары -->
+    <section class="text-center mb-4">
+      <div class="row wow fadeIn">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <div class="view overlay">
+              <img class="card-img-top "  src="img/myimage/products/sweater.jpg" alt="product">
+            </div>
+            <a href="#">
+              <div class="mask rgba-white-slight">
+                
+              </div>
+            </a>
+            <div class="card-body text-center">
+              <h5>
+                <a href="product.html" class="blue-text">
+                  <strong>Кофта Puma</strong> 
+                  <span class="badge badge-pill success-color">NEW</span>
+                </a>
+              </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae tenetur ipsam laudantium.</p>
+              <h4 class="font-wight-bold dark-grey-text">199$</h4>
+            </div>
+            
+            <form class="d-flex justify-content-center">
+              
+              <a href="product.html" class="btn btn-primary btn-md  p">
+                  Подробнее<li class="fa fa-graduation-cap ml-1"></li>
+              </a>
+          </form>
+          </div>
+        
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <div class="view overlay">
+              <img class="card-img-top "  src="img/myimage/products/sweater.jpg" alt="product">
+            </div>
+            <a href="#">
+              <div class="mask rgba-white-slight">
+                
+              </div>
+            </a>
+            <div class="card-body text-center">
+              <h5>
+                <a href="product.html" class="blue-text">
+                  <strong>Кофта Puma</strong> 
+                  <span class="badge badge-pill success-color">NEW</span>
+                </a>
+              </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae tenetur ipsam laudantium.</p>
+              <h4 class="font-wight-bold dark-grey-text">199$</h4>
+            </div>
+            <form class="d-flex justify-content-center">
+              
+              <a href="product.html" class="btn btn-primary btn-md  p">
+                  Подробнее<li class="fa fa-graduation-cap ml-1"></li>
+              </a>
+          </form>
+          </div>
+        
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <div class="view overlay">
+              <img class="card-img-top "  src="img/myimage/products/sweater.jpg" alt="product">
+            </div>
+            <a href="#">
+              <div class="mask rgba-white-slight">
+                
+              </div>
+            </a>
+            <div class="card-body text-center">
+              <h5>
+                <a href="product.html" class="blue-text">
+                  <strong>Кофта Puma</strong> 
+                
+                </a>
+              </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae tenetur ipsam laudantium.</p>
+              <h4 class="font-wight-bold text-danger">100$ <span class="badge badge-pill danger-color">скидка!</span></h4>
+           
+            </div>
+            <form class="d-flex justify-content-center">
+              
+              <a href="product.html" class="btn btn-primary btn-md  p">
+                  Подробнее<li class="fa fa-graduation-cap ml-1"></li>
+              </a>
+          </form>
+          </div>
+        
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <div class="view overlay">
+              <img class="card-img-top "  src="img/myimage/products/sweater.jpg" alt="product">
+            </div>
+            <a href="#">
+              <div class="mask rgba-white-slight">
+                
+              </div>
+            </a>
+            <div class="card-body text-center">
+              <h5>
+                <a href="product.html" class="blue-text">
+                  <strong>Кофта Puma</strong> 
+                  
+                </a>
+              </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae tenetur ipsam laudantium.</p>
+              <h4 class="font-wight-bold dark-grey-text">199$</h4>
+            </div>
+            <form class="d-flex justify-content-center">
+              
+              <a href="product.html" class="btn btn-primary btn-md  p">
+                  Подробнее<li class="fa fa-graduation-cap ml-1"></li>
+              </a>
+          </form>
+          </div>
+        
+        </div>
+      </div>
+
+      <div class="row wow fadeIn">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <div class="view overlay">
+              <img class="card-img-top "  src="img/myimage/products/sweater.jpg" alt="product">
+            </div>
+            <a href="#">
+              <div class="mask rgba-white-slight">
+                
+              </div>
+            </a>
+            <div class="card-body text-center">
+              <h5>
+                <a href="product.html" class="blue-text">
+                  <strong>Кофта Puma</strong> 
+                
+                </a>
+              </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae tenetur ipsam laudantium.</p>
+              <h4 class="font-wight-bold text-danger">100$ <span class="badge badge-pill danger-color">скидка!</span></h4>
+           
+            </div>
+            <form class="d-flex justify-content-center">
+              
+              <a href="product.html" class="btn btn-primary btn-md  p">
+                  Подробнее<li class="fa fa-graduation-cap ml-1"></li>
+              </a>
+          </form>
+          </div>
+        
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <div class="view overlay">
+              <img class="card-img-top "  src="img/myimage/products/sweater.jpg" alt="product">
+            </div>
+            <a href="#">
+              <div class="mask rgba-white-slight">
+                
+              </div>
+            </a>
+            <div class="card-body text-center">
+              <h5>
+                <a href="product.html" class="blue-text">
+                  <strong>Кофта Puma</strong> 
+                  
+                </a>
+              </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae tenetur ipsam laudantium.</p>
+              <h4 class="font-wight-bold dark-grey-text">199$</h4>
+            </div>
+            <form class="d-flex justify-content-center">
+              
+              <a href="product.html" class="btn btn-primary btn-md  p">
+                  Подробнее<li class="fa fa-graduation-cap ml-1"></li>
+              </a>
+          </form>
+          </div>
+        
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <div class="view overlay">
+              <img class="card-img-top "  src="img/myimage/products/sweater.jpg" alt="product">
+            </div>
+            <a href="#">
+              <div class="mask rgba-white-slight">
+                
+              </div>
+            </a>
+            <div class="card-body text-center">
+              <h5>
+                <a href="product.html" class="blue-text">
+                  <strong>Кофта Puma</strong> 
+                  <span class="badge badge-pill success-color">NEW</span>
+                </a>
+              </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae tenetur ipsam laudantium.</p>
+              <h4 class="font-wight-bold dark-grey-text">199$</h4>
+            </div>
+            <form class="d-flex justify-content-center">
+              
+              <a href="product.html" class="btn btn-primary btn-md  p">
+                  Подробнее<li class="fa fa-graduation-cap ml-1"></li>
+              </a>
+          </form>
+          </div>
+        
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <div class="view overlay">
+              <img class="card-img-top "  src="img/myimage/products/sweater.jpg" alt="product">
+            </div>
+            <a href="#">
+              <div class="mask rgba-white-slight">
+                
+              </div>
+            </a>
+            <div class="card-body text-center">
+              <h5>
+                <a href="product.html" class="blue-text">
+                  <strong>Кофта Puma</strong> 
+                
+                </a>
+              </h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae tenetur ipsam laudantium.</p>
+              <h4 class="font-wight-bold text-danger">100$ <span class="badge badge-pill danger-color">скидка!</span></h4>
+           
+            </div>
+            <form class="d-flex justify-content-center">
+              
+              <a href="product.html" class="btn btn-primary btn-md  p">
+                  Подробнее<li class="fa fa-graduation-cap ml-1"></li>
+              </a>
+          </form>
+          </div>
+        
+        </div>
+      </div>
+    </section>
+
+    <!-- пагинация -->
+    <nav class="d-flex justify-content-center wow fadeIn">
+      <ul class="pagination pg-blue">
+        <li class="page-item disabled">
+          <a href="#" class="page-link" aria-label="prev">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item active">
+          <a href="#" class="page-link" aria-label="prev">
+            <span aria-hidden="true">1</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a href="#" class="page-link" aria-label="prev">
+            <span aria-hidden="true">2</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a href="#" class="page-link" aria-label="prev">
+            <span aria-hidden="true">3</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a href="#" class="page-link" aria-label="next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Акции -->
+    <section class="mt-5">
+      <h3 class="text-center mb-3">Специальные предложения</h3>
+    <div class="row wow fadeIn">
+      <div class="col-md-6 mb-4">
+          <img src="img/myimage/media/new.jpg" alt="product" class="img-fluid rounded" width="800">
+      </div>
+      <div class="col-md-6 mb-4">
+          <div class="p-4">
+              <div class="mb-3">
+                  <a href="#">
+                      <span class="badge blue mr-1">Верхняя одежда</span>
+                  </a>
+                  <a href="#">
+                      <span class="badge success-color mr-1">NEW</span>
+                  </a>
+                  <a href="#">
+                      <span class="badge purple mr-1">Фирменная</span>
+                  </a>
+                  
+              </div>
+              <p class="lead">
+                  <span class="mr-1">
+                     <del>200$</del> 
+                  </span>
+                  <span class="mr-1">
+                      <strong>150$ <span class="badge red ml-1">скидка!</span></strong> 
+                   </span>
+              </p>
+              <p class="lead font-weight-bold">Описание:</p>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, veniam animi! Alias accusantium et magni, voluptatibus repellendus officiis expedita vitae, veritatis incidunt ipsam ut est?</p>
+              <form class="d-flex justify-content-left">
+                  <input type="number" value="1" aria-label="Search" class="form-control form-w">
+                  <a href="cart.html" class="btn btn-primary btn-md my-0 p">
+                      Добавить<li class="fa fa-shopping-cart ml-1"></li>
+                  </a>
+              </form>
+          </div>
+      </div>
+  </div>
+</section>
+  </div>
+</main>
+
+<!-- Футер -->
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+    <div class="pt-3">
+     
+      <a href="contact.html" class="btn btn-outline-white ">О нас  <i class="fa fa-graduation-cap ml-1"></i></a>
+    </div>
+   
+    <div class="my-4">
+    <a href="#">
+      <li class="fab fa-facebook mr-3"></li>
+    </a>
+    <a href="#">
+      <li class="fab fa-twitter mr-3"></li>
+    </a>
+    <a href="#">
+      <li class="fab fa-github mr-3"></li>
+    </a>
+  </div>
+ 
+   
+  </footer>
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+ 
+
+</body>
+</html>
