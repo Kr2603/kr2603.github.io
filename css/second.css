@@ -4,6 +4,16 @@ header,
 .carousel {
     height: 60vh;
 }
+.marg {
+font-size:100px;
+    font-weight:500;
+    color: #4b82e8;
+}
+.ops {
+    color: #000;
+font-size:30px;
+}
+
 @media(max-width:746px){
     .carousel {
         height: 100%;
